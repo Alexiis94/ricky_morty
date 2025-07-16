@@ -16,7 +16,7 @@ const HomePage = () => {
 
   return (
     <div className="bg-gray-100 py-20 min-h-screen">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-4">
         <div className="pb-20 flex justify-between items-center">
           <img src="/Rick_and_Morty.svg" alt="logo" className="h-[80px]" />
           <div>
