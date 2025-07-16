@@ -21,15 +21,3 @@ export const getCharactersServices = async (): Promise<Character[]> => {
     throw error;
   }
 };
-
-export const getEpisode = async () => {
-  try {
-    const response = await axiosInstance.get("/episode");
-    const { results } = response.data;
-    return results;
-  } catch (error) {
-    console.log("[Services]: Error al obtener datos de Charters");
-
-    throw error;
-  }
-};
